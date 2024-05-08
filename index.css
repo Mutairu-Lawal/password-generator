@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 90%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  padding: 10px;
+}
+.container {
+  min-width: 310px;
+  padding: 1em;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.container div {
+  margin-bottom: 10px;
+}
+
+.form-field button {
+  padding: 10px;
+  width: 100%;
+  font-weight: bolder;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: hsl(120, 100%, 50%);
+  border: none;
+}
+
+.form-field button:hover {
+  background-color: hsl(120, 100%, 30%);
+}
+.password-field input {
+  width: 150px;
+  padding: 2px;
+}
+
+.password-field p {
+  color: hsl(0, 100%, 40%);
+}
+.password {
+  margin: 10px 0px;
+}
+
+.js-error {
+  margin-top: 10px;
+}
